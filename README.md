@@ -8,5 +8,5 @@ Quoting Wiki for definition:
 
 #### Sample output
 
-![Array mapped to an image](http://sample/jpg "Array mapped to an image")
+![Array mapped to an image](https://cloud.githubusercontent.com/assets/304605/12910178/1ab089d0-cf2e-11e5-9a01-28656919522e.png "Array mapped to an image")
 
