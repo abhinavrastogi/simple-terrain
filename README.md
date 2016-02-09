@@ -6,6 +6,10 @@ Quoting Wiki for definition:
 
 > The diamond-square algorithm is a method for generating heightmaps for computer graphics. It is a slightly better algorithm than the three-dimensional implementation of the midpoint displacement algorithm which produces two-dimensional landscapes. It is also known as the random midpoint displacement fractal, the cloud fractal or the plasma fractal, because of the plasma effect produced when applied.
 
+#### Demo
+
+http://abhinavrastogi.github.io/simple-terrain
+
 #### Usage
 
 The module exports a single function, which accepts the size `n` of the terrain you want to generate and returns a 2D array of size `2^n x 2^n`. The value of each point in the terrain can range from 0 to 1.
