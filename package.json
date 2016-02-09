@@ -1,0 +1,19 @@
+{
+  "name": "diamond-square",
+  "version": "1.0.0",
+  "description": "Vanilla JS implementation of Diamond-Square algorithm for generating realistic terrain heightmaps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diamond",
+    "square",
+    "map",
+    "terrain",
+    "heightmap",
+    "algorithm"
+  ],
+  "author": "r.abhinav@gmail.com",
+  "license": "ISC"
+}

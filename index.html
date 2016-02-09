@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Diamond Square Terrain</title>
+	<script src="index.js"></script>
+	<style>
+		.element {
+			height: 5px;
+			width: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script>
+		var logTerrain = function (_terrain) {
+			var str = "<table cellspacing='0'>";
+			for (var i = 0; i < _terrain.length; i++) {
+				str += "<tr>";
+				for (var j = 0; j < _terrain[i].length; j++) {
+					var value = Math.floor(_terrain[i][j] * 10);
+					str += "<td class='element' style='background-color:rgba(0,0,0," + (value / 10) + ")'></td>";
+				}
+				str += "</tr>";
+			}
+			str += "</table>";
+
+			document.getElementById("container").innerHTML = str;
+		};
+
+		var terrain = diamondSquareTerrain(5);
+		logTerrain(terrain);
+	</script>
+</body>
+</html>
